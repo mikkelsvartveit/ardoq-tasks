@@ -1,0 +1,77 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+select {
+    display: block;
+    margin: 30px auto 50px auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 2px solid #444;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 550px;
+    margin: auto;
+}
+
+.square {
+    box-shadow: 0 0 8px 0 #888;
+    padding: 0 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.square h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.square span {
+    font-size: 92px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#available_bikes {
+    color: #068a41;
+}
+
+#free_spots {
+    color: #ed2f2f;
+}
+
+#status #note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 40px;
+}
+
+.hidden {
+    display: none;
+}

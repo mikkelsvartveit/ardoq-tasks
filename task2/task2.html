@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="task2.css">
+    <title>Oslo City Bikes</title>
+</head>
+
+<body>
+    <h1>Oslo City Bikes</h1>
+
+    <h2>Choose a station to view available bikes and free parking spots.</h2>
+
+    <select name="stations" id="stations_select">
+        <option value="0" selected disabled>-- Choose station --</option>
+    </select>
+
+    <div id="status" class="hidden">
+        <div class="flex">
+            <div class="square">
+                <h3>Bikes available</h3>
+                <span id="available_bikes"></span>
+            </div>
+
+            <div class="square">
+                <h3>Parking spots</h3>
+                <span id="free_spots"></span>
+            </div>
+        </div>
+
+        <p id="note">Status is automatically refreshed every 10 seconds</p>
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+
+</html>
